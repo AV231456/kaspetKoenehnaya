@@ -316,14 +316,7 @@
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form3 form2 = new Form3();
-            form2.ShowDialog();
-            this.Close();
 
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -333,6 +326,11 @@
         private void button3_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

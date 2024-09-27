@@ -161,44 +161,6 @@ namespace WinFormsApp1
             CloseConnection();
         }
 
-        private void reg_Click_1(object sender, EventArgs e)
-        {
-            string Login = LOGBox1.Text;
-            string Password = REGBox2.Text;
-
-            if (Login.Length < 3 || Login.Length > 20)
-            {
-                MessageBox.Show("Длина логина должна составлять от 3 до 20 символов.");
-                return;
-            }
-
-            if (Password.Length < 3 || Password.Length > 20)
-            {
-                MessageBox.Show("Длина пароля должна составлять от 3 до 20 символов.");
-                return;
-            }
-
-            OpenConnection();
-
-            using (var cmd = new SQLiteCommand("INSERT INTO Users (Login, Password) VALUES (@Log, @Pass)", DB))
-            {
-                cmd.Parameters.AddWithValue("@Log", Login);
-                cmd.Parameters.AddWithValue("@Pass", Password);
-
-                try
-                {
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Регистрация прошла успешно!");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Регистрация не удалась: {ex.Message}");
-                }
-            }
-
-            CloseConnection();
-        }
-
         private void ShowUsers()
         {
             OpenConnection();
@@ -252,32 +214,6 @@ namespace WinFormsApp1
             CloseConnection();
         }
 
-        private void DeleteUser(string login)
-        {
-            OpenConnection();
-            using (var cmd = new SQLiteCommand("DELETE FROM Users WHERE Login = @Log", DB))
-            {
-                cmd.Parameters.AddWithValue("@Log", login);
-
-                try
-                {
-                    int rowsAffected = cmd.ExecuteNonQuery();
-                    if (rowsAffected > 0)
-                    {
-                        MessageBox.Show("Пользователь успешно удалён.");
-                    }
-                    else
-                    {
-                        MessageBox.Show("Пользователь не найден.");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Ошибка при удалении пользователя: {ex.Message}");
-                }
-            }
-            CloseConnection();
-        }
 
         private void smena_Click(object sender, EventArgs e)
         {

@@ -122,7 +122,6 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(238, 259);
             dataGridView1.TabIndex = 9;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // txtSmart
             // 
@@ -258,7 +257,6 @@
             button2.TabIndex = 27;
             button2.Text = "-";
             button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -270,7 +268,6 @@
             button1.TabIndex = 26;
             button1.Text = "X";
             button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click_1;
             // 
             // Form3
             // 

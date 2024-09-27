@@ -107,7 +107,7 @@
                 new Event { Title = "Мастер-класс по кулинарии", Date = DateTime.Now.AddDays(5), Description = "Даты: 2 октября 2024 г. Время: 18:00." },
                 new Event { Title = "Вечеринка у бассейна", Date = DateTime.Now.AddDays(10), Description = "Даты: 7 октября 2024 г. Время: 19:00." },
                 new Event { Title = "Гид по городу", Date = DateTime.Now.AddDays(12), Description = "Даты: 9 октября 2024 г. Время: 10:00." },
-            
+
             };
 
             boxYcl.Items.AddRange(new string[] { "Еда", "Напитки", "Услуги" });
@@ -282,15 +282,7 @@
             MessageBox.Show(eventMessage, "Календарь мероприятий");
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
     }
 }
 

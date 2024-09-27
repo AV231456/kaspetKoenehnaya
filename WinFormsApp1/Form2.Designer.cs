@@ -79,6 +79,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(410, 379);
             dataGridView1.TabIndex = 10;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // bratata
             // 
@@ -197,7 +198,6 @@
             button1.TabIndex = 26;
             button1.Text = "П Р О Д О Л Ж И М ? ----->>";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // button2
             // 

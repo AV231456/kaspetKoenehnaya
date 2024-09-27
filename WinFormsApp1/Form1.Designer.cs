@@ -50,7 +50,6 @@
             reg.TabIndex = 1;
             reg.Text = "Р Е Г И С Т Р А Ц И Я";
             reg.UseVisualStyleBackColor = true;
-            reg.Click += reg_Click_1;
             // 
             // LOGBox1
             // 
