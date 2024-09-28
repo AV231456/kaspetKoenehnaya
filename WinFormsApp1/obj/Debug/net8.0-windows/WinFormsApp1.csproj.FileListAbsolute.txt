@@ -24,3 +24,29 @@ C:\Users\vkajm\OneDrive\Desktop\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windo
 C:\Users\vkajm\OneDrive\Desktop\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
 C:\Users\vkajm\OneDrive\Desktop\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form3.resources
 C:\Users\vkajm\OneDrive\Desktop\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form2.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\bin\Debug\net8.0-windows\System.Data.SQLite.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form2.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form3.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Properties.Resources.resources
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinForms.E4050A35.Up2Date
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+\\192.168.3.250\Veda\3 курс\ИСП 33-9, ИСП 34-11\МДК 03.01\Каримов Каймов\ПРИМЕРЫ РАБОТ\kaspetKoenehnaya-main\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll

@@ -121,9 +121,7 @@
             dataGridView1.Location = new Point(550, 91);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(238, 259);
-            dataGridView1.TabIndex = 9;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
-            // 
+            dataGridView1.TabIndex = 9;            // 
             // txtSmart
             // 
             txtSmart.Location = new Point(117, 298);

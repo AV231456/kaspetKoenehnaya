@@ -129,6 +129,7 @@
         {
             foreach (var excursion in excursions)
             {
+
                 listBoxzakaz.Items.Add($"{excursion.Name} - {excursion.Description} (Цена: {excursion.Price} ₽)");
             }
         }
@@ -151,6 +152,7 @@
 
         private void PopulateEvents()
         {
+            
             foreach (var evt in events)
             {
                 lstPop.Items.Add($"{evt.Title} - {evt.Description} (Дата: {evt.Date.ToShortDateString()})");
@@ -165,6 +167,7 @@
 
             if (string.IsNullOrEmpty(category) || string.IsNullOrEmpty(item) || string.IsNullOrEmpty(room) || !IsRoomValid(room))
             {
+
                 MessageBox.Show("Пожалуйста, выберите категорию, введите наименование заказа и номер комнаты, которая доступна в списке.");
                 return;
             }
@@ -234,6 +237,7 @@
         {
             if (Check.SelectedItem == null)
             {
+
                 MessageBox.Show("Пожалуйста, выберите заказ для удаления.");
                 return;
             }
@@ -251,6 +255,7 @@
             historyMessage += "Забронированные Комнаты:\n";
             foreach (var room in bookingHistory.BookedRooms)
             {
+
                 historyMessage += $"- {room}\n";
             }
 

@@ -1,21 +1,20 @@
 using System.Data;
 using System.Data.SQLite;
 
-
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
-        private static SQLiteConnection DB; // Объявляем переменную DB
-        private bool isDarkMode = false; // Переменная для управления темной темой
+        private static SQLiteConnection DB; 
+        private bool isDarkMode = false;
 
         public Form1()
         {
             InitializeComponent();
-            string connection = "Data Source=asd.db;Version=3;"; // Убедитесь, что строка подключения правильная
-            DB = new SQLiteConnection(connection); // Инициализируем соединение
-            CreateTable(); // Создаём таблицу при инициализации
-            ApplyTheme(); // Применяем тему при инициализации
+            string connection = "Data Source=asd.db;Version=3;"; 
+            DB = new SQLiteConnection(connection); 
+            CreateTable();
+            ApplyTheme(); 
         }
 
         private void ApplyTheme()
@@ -60,7 +59,6 @@ namespace WinFormsApp1
             }
         }
 
-
         private void CreateTable()
         {
             OpenConnection();
@@ -72,7 +70,7 @@ namespace WinFormsApp1
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Ошибка создания таблицы: {ex.Message}");
+                    MessageBox.Show($"Error creating table: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             CloseConnection();
@@ -89,7 +87,7 @@ namespace WinFormsApp1
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка подключения: {ex.Message}");
+                MessageBox.Show($"Error connecting: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -104,7 +102,7 @@ namespace WinFormsApp1
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка закрытия подключения: {ex.Message}");
+                MessageBox.Show($"Error closing connection: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -115,14 +113,13 @@ namespace WinFormsApp1
 
             if (Login.Length < 3 || Login.Length > 20)
             {
-                MessageBox.Show("Длина логина должна составлять от 3 до 20 символов.");
+                MessageBox.Show("Login length must be between 3 and 20 characters.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (Password.Length < 3 || Password.Length > 20)
             {
-
-                MessageBox.Show("Длина пароля должна составлять от 3 до 20 символов.");
+                MessageBox.Show("Password length must be between 3 and 20 characters.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -130,18 +127,16 @@ namespace WinFormsApp1
 
             using (var cmd = new SQLiteCommand("SELECT COUNT(*) FROM Users WHERE Login = @Log AND Password = @Pass", DB))
             {
-
                 cmd.Parameters.AddWithValue("@Log", Login);
                 cmd.Parameters.AddWithValue("@Pass", Password);
 
                 try
                 {
-
                     int count = Convert.ToInt32(cmd.ExecuteScalar());
 
                     if (count > 0)
                     {
-                        MessageBox.Show("Вход успешен!");
+                        MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.Hide();
                         Form2 form1 = new Form2();
                         form1.ShowDialog();
@@ -149,12 +144,12 @@ namespace WinFormsApp1
                     }
                     else
                     {
-                        MessageBox.Show("Неверный логин или пароль.");
+                        MessageBox.Show("Invalid login or password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Ошибка при выполнении запроса: {ex.Message}");
+                    MessageBox.Show($"Error executing query: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
 
@@ -168,13 +163,13 @@ namespace WinFormsApp1
 
             if (Login.Length < 3 || Login.Length > 20)
             {
-                MessageBox.Show("Длина логина должна составлять от 3 до 20 символов.");
+                MessageBox.Show("Login length must be between 3 and 20 characters.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             if (Password.Length < 3 || Password.Length > 20)
             {
-                MessageBox.Show("Длина пароля должна составлять от 3 до 20 символов.");
+                MessageBox.Show("Password length must be between 3 and 20 characters.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -188,11 +183,11 @@ namespace WinFormsApp1
                 try
                 {
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Регистрация прошла успешно!");
+                    MessageBox.Show("Registration successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Регистрация не удалась: {ex.Message}");
+                    MessageBox.Show($"Registration failed: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
 
@@ -208,7 +203,7 @@ namespace WinFormsApp1
                 {
                     using (SQLiteDataReader reader = cmd.ExecuteReader())
                     {
-                        string usersList = "Список пользователей:\n";
+                        string usersList = "User list:\n";
                         while (reader.Read())
                         {
                             usersList += $"ID: {reader["Id"]}, Login: {reader["Login"]}\n";
@@ -218,7 +213,7 @@ namespace WinFormsApp1
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Ошибка при получении пользователей: {ex.Message}");
+                    MessageBox.Show($"Error fetching users: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             CloseConnection();
@@ -237,16 +232,16 @@ namespace WinFormsApp1
                     int rowsAffected = cmd.ExecuteNonQuery();
                     if (rowsAffected > 0)
                     {
-                        MessageBox.Show("Пароль успешно изменён.");
+                        MessageBox.Show("Password changed successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        MessageBox.Show("Пользователь не найден.");
+                        MessageBox.Show("User not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Ошибка при изменении пароля: {ex.Message}");
+                    MessageBox.Show($"Error changing password: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             CloseConnection();
@@ -264,16 +259,16 @@ namespace WinFormsApp1
                     int rowsAffected = cmd.ExecuteNonQuery();
                     if (rowsAffected > 0)
                     {
-                        MessageBox.Show("Пользователь успешно удалён.");
+                        MessageBox.Show("User deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        MessageBox.Show("Пользователь не найден.");
+                        MessageBox.Show("User not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Ошибка при удалении пользователя: {ex.Message}");
+                    MessageBox.Show($"Error deleting user: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             CloseConnection();
@@ -281,14 +276,14 @@ namespace WinFormsApp1
 
         private void smena_Click(object sender, EventArgs e)
         {
-            int userId = 1;
-            string newPassword = "newPassword123";
+            int userId = 1; 
+            string newPassword = "newPassword123"; 
             ChangePassword(userId, newPassword);
         }
 
         private void delete_Click_1(object sender, EventArgs e)
         {
-            string loginToDelete = "userLogin";
+            string loginToDelete = "Nikita";
             DeleteUser(loginToDelete);
         }
 
@@ -308,10 +303,3 @@ namespace WinFormsApp1
         }
     }
 }
-
-
-
-
-
-
-

@@ -81,19 +81,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vkajm\\.nuget\\packages\\": {}
+    "C:\\Users\\Student2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vkajm\\OneDrive\\Desktop\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "\\\\192.168.3.250\\Veda\\3 курс\\ИСП 33-9, ИСП 34-11\\МДК 03.01\\Каримов Каймов\\ПРИМЕРЫ РАБОТ\\kaspetKoenehnaya-main\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\vkajm\\OneDrive\\Desktop\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-      "packagesPath": "C:\\Users\\vkajm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vkajm\\OneDrive\\Desktop\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "projectPath": "\\\\192.168.3.250\\Veda\\3 курс\\ИСП 33-9, ИСП 34-11\\МДК 03.01\\Каримов Каймов\\ПРИМЕРЫ РАБОТ\\kaspetKoenehnaya-main\\WinFormsApp1\\WinFormsApp1.csproj",
+      "packagesPath": "C:\\Users\\Student2\\.nuget\\packages\\",
+      "outputPath": "\\\\192.168.3.250\\Veda\\3 курс\\ИСП 33-9, ИСП 34-11\\МДК 03.01\\Каримов Каймов\\ПРИМЕРЫ РАБОТ\\kaspetKoenehnaya-main\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vkajm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -148,7 +148,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

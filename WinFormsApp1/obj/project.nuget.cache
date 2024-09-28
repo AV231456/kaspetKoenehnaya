@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "h/CQiZZgAOJWU/Yef9x773trWCqIArQ3YqoOdd4Iv9me6v2kHiX+K3hZ5suLwOz52LJKaH4A5bhgrtBeLXPX2A==",
+  "dgSpecHash": "cIKzcKc7jHg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vkajm\\OneDrive\\Desktop\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "\\\\192.168.3.250\\Veda\\3 курс\\ИСП 33-9, ИСП 34-11\\МДК 03.01\\Каримов Каймов\\ПРИМЕРЫ РАБОТ\\kaspetKoenehnaya-main\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vkajm\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
-    "C:\\Users\\vkajm\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512"
+    "C:\\Users\\Student2\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "C:\\Users\\Student2\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512"
   ],
   "logs": []
 }
